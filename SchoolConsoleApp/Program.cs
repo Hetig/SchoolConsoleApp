@@ -10,6 +10,7 @@ namespace SchoolConsoleApp
     {
         static void Main(string[] args)
         {
+            // test PR for fork repository
             Console.WriteLine("Здравствуйте, введите название школы");
             string schoolName = Console.ReadLine();
             var school = new School(schoolName);
